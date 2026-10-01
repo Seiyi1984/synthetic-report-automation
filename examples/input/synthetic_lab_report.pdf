@@ -1,0 +1,88 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (Independent Synthetic Report Pipeline) /CreationDate (D:20000101000000+00'00') /Creator (Independent Synthetic Report Pipeline 0.1.0) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (Synthetic Laboratory Input) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 807
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 48 786.8898 Tm (SYNTHETIC LABORATORY INPUT) Tj T* ET
+BT 1 0 0 1 48 769.8898 Tm (SPEC_VERSION: 1.0) Tj T* ET
+BT 1 0 0 1 48 752.8898 Tm (LAB_ID: LAB-SYN-001) Tj T* ET
+BT 1 0 0 1 48 735.8898 Tm (REPORT_ID: RPT-SYN-0001) Tj T* ET
+BT 1 0 0 1 48 718.8898 Tm (SUBJECT_ID: SUBJECT-SYN-0001) Tj T* ET
+BT 1 0 0 1 48 701.8898 Tm (COLLECTED_DATE: 2030-01-15) Tj T* ET
+BT 1 0 0 1 48 684.8898 Tm (RESULT|CODE|NAME|VALUE|UNIT|REF_LOW|REF_HIGH) Tj T* ET
+BT 1 0 0 1 48 667.8898 Tm (RESULT|ALPHA|Marker Alpha|4.2|arb.u.|1.0|5.0) Tj T* ET
+BT 1 0 0 1 48 650.8898 Tm (RESULT|BETA|Marker Beta|8.4|arb.u.|2.0|7.0) Tj T* ET
+BT 1 0 0 1 48 633.8898 Tm (RESULT|GAMMA|Marker Gamma|0.5|arb.u.|0.8|3.5) Tj T* ET
+BT 1 0 0 1 48 616.8898 Tm (END_RESULTS) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000314 00000 n 
+0000000517 00000 n 
+0000000585 00000 n 
+0000000926 00000 n 
+0000000985 00000 n 
+trailer
+<<
+/ID 
+[<b5bc51b967c08d79a8d2b11fc2ea9999><b5bc51b967c08d79a8d2b11fc2ea9999>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+1842
+%%EOF
