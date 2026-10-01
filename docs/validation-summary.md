@@ -1,6 +1,6 @@
 # Validation summary
 
-Status: ENGINEERING VERIFICATION PASSED; HUMAN PUBLICATION REVIEW NOT RUN
+Status: ENGINEERING VERIFICATION PASSED; HUMAN PUBLICATION REVIEW PASSED
 
 Verification date: 2026-10-01
 
@@ -20,7 +20,7 @@ This summary records only checks executed against this clean-room repository. No
 | PDF visual inspection | Both PDFs rendered at 144 DPI and inspected for clipping, overlap, and legibility | PASS |
 | Boundary scan | No email, credential assignment, private-key header, IP address, symlink, submodule, or absolute local path detected | PASS |
 | Repository state | Independent Git repository with no imported history | PASS |
-| Human publication approval | REVIEW-01 | NOT RUN |
+| Human publication approval | REVIEW-01 | PASS - staged content accepted and publication authorized by the Human Owner on 2026-10-01 |
 
 ## SHA-256 evidence
 
@@ -35,5 +35,6 @@ This summary records only checks executed against this clean-room repository. No
 
 - PASS applies only to version 0.1.0 and the environment recorded above.
 - Structural and visual PDF checks are separate from automated functional tests.
-- No cross-platform execution, external deployment, production comparison, clinical review, regulatory validation, push, publication, or release was performed.
-- REVIEW-01 remains an explicit Human Owner gate.
+- No cross-platform execution, external deployment, production comparison, clinical review, regulatory validation, or formal release was performed.
+- Publication was limited to the reviewed Git commit in the public portfolio repository and does not broaden the engineering verification claims above.
+- REVIEW-01 was completed by the Human Owner on 2026-10-01.
