@@ -17,9 +17,14 @@ class RepositoryControlTests(unittest.TestCase):
     def test_ctrl_01_clean_room_boundary_controls(self) -> None:
         self.assertTrue((PROJECT_ROOT / "CLEAN_ROOM_DECLARATION.md").is_file())
         self.assertFalse((PROJECT_ROOT / ".gitmodules").exists())
-        for path in PROJECT_ROOT.rglob("*"):
-            if ".git" in path.parts or path.name == "__pycache__":
-                continue
+        tracked_files = subprocess.run(
+            ["git", "ls-files", "-z"],
+            cwd=PROJECT_ROOT,
+            capture_output=True,
+            check=True,
+        ).stdout.decode("utf-8").split("\0")
+        for relative_path in filter(None, tracked_files):
+            path = PROJECT_ROOT / relative_path
             self.assertFalse(path.is_symlink(), f"Symlink not allowed: {path}")
             if path.is_file() and path.suffix in TEXT_SUFFIXES:
                 text = path.read_text(encoding="utf-8")

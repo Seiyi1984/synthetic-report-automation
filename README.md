@@ -24,7 +24,7 @@ python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.lock
 .venv\Scripts\python.exe -m pip install -e .
 .venv\Scripts\python.exe scripts\generate_synthetic_input.py
-synthetic-report examples\input\synthetic_lab_report.pdf --output-dir output\example
+.venv\Scripts\synthetic-report.exe examples\input\synthetic_lab_report.pdf --output-dir output\example
 .venv\Scripts\python.exe -m unittest discover -s tests -p "test_*.py" -v
 ```
 
